@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>socialbox</title>
+    <link rel="stylesheet" type="text/css" href="css/socialBox.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="sb-container">
+      <div class="sb-nav">
+        <ul>
+          <li class="sb-facebook" title="Facebook"><i class="fa fa-facebook"></i></li>
+          <li class="sb-twitter" title="Facebook"><i class="fa fa-twitter"></i></li>
+          <li class="sb-youtube" title="Facebook"><i class="fa fa-youtube"></i></li>
+        </ul>
+      </div>
+      <div class="sb-box">
+        <ul>
+          <li>
+            <div class="show-content fb">
+              <i class="fa fa-facebook"></i>
+              <p>Your facebook box</p>
+            </div>
+          </li>
+          <li>
+            <div class="show-content tw">
+              <i class="fa fa-twitter"></i>
+              <p>Your twitter box</p>
+            </div>
+          </li>
+          <li>
+            <div class="show-content yt">
+              <i class="fa fa-youtube"></i>
+              <p>Your youtube box</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+      var customSocialBox = {
+       position:'bottom',
+       timeOpenAnimation:200,
+       widthBox:350,
+       heightBox:150,
+       positionScroll:20,
+       target:'hover',
+       style:'round'
+      }
+    </script>
+    <script type="text/javascript" src="js/socialBox-min.js"></script>
+  </body>
+</html>
